@@ -4,7 +4,11 @@
 
 @layer components{
     .list:hover{
-        color: #ff7d3b;  
-        transition: all 0.2s ease-out;
+        @apply text-color-secondary transition-all;
+     }
+    .btn{
+        @apply self-center md:self-start px-8 py-2 bg-color-secondary rounded-md font-semibold capitalize hover:opacity-30 ease-in duration-100;
     }
+
+    
 }
