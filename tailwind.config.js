@@ -10,9 +10,13 @@ module.exports = {
         'color-secondary': '#ff7d3b',
         'color-gray': '#333',
         'color-white': '#fff',
-        'color-blod': '#A427DF' 
+        'color-blod': '#A427DF',
+        'nav-bg': '#102C57'
       },
     },
+    fontFamily:{
+      'body': ['Roboto', 'sans-serif'],
+      },
     container:{
       center: true,
       padding: {

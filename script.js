@@ -1,3 +1,27 @@
+const hamburger = document.getElementById('btn');
+const menu = document.getElementById('menu');
+const hLink = document.getElementById('hLink');
+const burger = document.querySelector('.fa-solid');
+hamburger.addEventListener('click', () => {
+    menu.classList.toggle('hidden');
+    burger.classList.toggle('fa-xmark');
+});
+hLink.forEach(link => {
+    link.addEventListener('click', () => {
+        menu.classList.toggle('show');
+        burger.classList.toggle('fa-xmark');
+    })
+});
+ 
+ 
+
+
+
+
+
+
+
+
 /* 
  21) DOM
  22) project
